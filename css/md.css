@@ -22,10 +22,10 @@ blockquote {border-left: 4px solid #999999;
             color: #777777;}
 
 code, pre {font-size: 15px;
-           font-family: Inconsolata, "Source Code Pro", Consolas, Menlo, Courier, "Microsoft YaHei", monospace;}
+           font-family: "Fira Code", Inconsolata, "Source Code Pro", Consolas, Menlo, "Microsoft YaHei", monospace;}
 
 pre code {font-size: 15px;
-          font-family: Inconsolata, "Source Code Pro", Consolas, Menlo, Courier, "Microsoft YaHei", monospace;}
+          font-family: "Fira Code", Inconsolata, "Source Code Pro", Consolas, Menlo, "Microsoft YaHei", monospace;}
 
 hr {border: 0;
     border-bottom: 1px solid #D9D9D9;
