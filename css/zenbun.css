@@ -1,0 +1,30 @@
+body {font-size: 18px;
+      font-family: "Hiragino Mincho Pro", "Yu Mincho", Times, "Times New Roman", "MS PMincho", serif;
+      background-color: #227D51;/*midori*/}
+
+div {width: 540px;
+     margin: 0 auto;
+     padding: 0;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: bold;
+                        color: white;}
+
+h1 {font-size: 36px; text-align: center;}
+h2 {font-size: 24px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #fcfaf2;/*shironeri*/
+    margin-top: 2.5em;}
+h3 {font-size: 22px;}
+h4 {font-size: 20px;}
+h5 {font-size: 19px;}
+h6 {font-size: 18px;}
+
+p, h1, h2, h3, h4, h5, h6 {color: #fcfaf2;/*shironeri*/}
+
+p, li, ol, ul, blockquote p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+p {text-indent: 1em;}
