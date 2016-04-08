@@ -1,0 +1,32 @@
+body {font-size: 15px;
+      font-family: "Microsoft YaHei", "Source Han Sans SC", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+      background-color: white;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: bold;
+                        color: black;}
+
+h1 {font-size: 24px;}
+h2 {font-size: 22px;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 15px;}
+
+p, li, ol, ul, blockquote p {font-size: 15px;
+                             font-weight: normal;
+                             line-height: 1.6;}
+
+blockquote {border-left: 4px solid #999999;
+            padding: 0 13px;
+            margin: 0 17px 0 13px;
+            color: #777777;}
+
+code, pre {font-size: 15px;
+           font-family: Inconsolata, "Source Code Pro", Consolas, Menlo, Courier, "Microsoft YaHei", monospace;}
+
+pre code {font-size: 15px;
+          font-family: Inconsolata, "Source Code Pro", Consolas, Menlo, Courier, "Microsoft YaHei", monospace;}
+
+hr {border: 0;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 0 0 15px;}
