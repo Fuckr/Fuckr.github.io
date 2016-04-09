@@ -10,7 +10,10 @@ h1 {
     margin: 1em auto 0;
 }
 
-#avatar img{ border-radius:50%}
+img{
+    margin: 1em auto 0
+    border-radius:50%
+}
 
 a:link {
     color: #0C0C0C;
