@@ -1,0 +1,30 @@
+body {font-size: 15px;
+      font-family: "Microsoft YaHei", "Source Han Sans SC", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+      background-color: #FED428;}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #828282;
+    color: #0C0C0C;
+    margin: 1em auto 0;
+}
+
+#avatar img{ border-radius:50%}
+
+a:link {
+    color: #0C0C0C;
+    text-decoration: none;
+}
+a:visited {
+    color: #0C0C0C;
+    text-decoration: none;
+}
+a:hover {
+    color: #0C0C0C;
+    text-decoration: underline;
+}
+a:active {
+    color: #0C0C0C,
+    text-decoration: underline;
+}
