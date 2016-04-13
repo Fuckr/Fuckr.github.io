@@ -1,19 +1,22 @@
-html {font-size : 20px;}
-
 body {font-family: Helvetica, Arial, "Source Han Sans SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
       background-color: #fcfcfc;}
 
-h1 {font-size: 1rem;
+#avatar {
     text-align: center;
-    font-weight: 300;
-    text-shadow: 1px 1px 4px #828282;
-    color: #0C0C0C;
-    margin: 1rem auto 0;
 }
 
 #avatar img {
     border-radius: 50%;
-    height: 5.25rem;
+    height: 12.5em;
+}
+
+#username h1 {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 300;
+    text-shadow: 1px 1px 4px #828282;
+    color: #0C0C0C;
+    margin: 1rem auto 0;
 }
 
 a:link {
@@ -33,28 +36,8 @@ a:active {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 401px){
-    html {
-        font-size: 25px !important;
-    }
+/*
+@media (max-width: 480px){
+
 }
-@media only screen and (min-width: 428px){
-    html {
-        font-size: 26.75px !important;
-    }
-}
-@media only screen and (min-width: 481px){
-    html {
-        font-size: 30px !important; 
-    }
-}
-@media only screen and (min-width: 569px){
-    html {
-        font-size: 35px !important; 
-    }
-}
-@media only screen and (min-width: 641px){
-    html {
-        font-size: 40px !important; 
-    }
-}
+*/
