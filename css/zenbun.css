@@ -1,41 +1,61 @@
-body {font-size: 20px;
-      font-family: "Yu Mincho", "Hiragino Mincho Pro", Times, "Times New Roman", "MS PMincho", serif;
-      background-color: #227D51;/*midori*/}
-
-h1, h2, h3, h4, h5, h6 {font-weight: bold;
-                        color: white;}
-
-h1 {font-size: 1.8em; text-align: center; margin-top: 2.5em;}
-h2 {font-size: 1.6em;}
-h3 {font-size: 1.4em;
+body {
+    font-family: "Yu Mincho", "Hiragino Mincho Pro", Times, "Times New Roman", "MS PMincho", serif;
+    background-color: #227D51;/*midori*/
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    font-size: 1.8em; text-align: center; margin-top: 2.5em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
     padding-bottom: 4px;
     border-bottom: 1px solid #fcfaf2;/*shironeri*/
-    margin-top: 2.5em;}
-h4 {font-size: 1.2em;}
-h5 {font-size: 1.1em;}
-h6 {font-size: 1em;}
-
-p, h1, h2, h3, h4, h5, h6 {color: #fcfaf2;/*shironeri*/}
-
+    margin-top: 2.5em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+h6 {
+    font-size: 1em;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    color: #fcfaf2;/*shironeri*/
+}
 p, li, ol, ul, blockquote p {
     font-size: 1em;
     font-weight: normal;
     line-height: 1.5;
 }
-
 p {text-indent: 1em;}
-
-@media screen and (min-width: 1024px) {
-	article, .central-element {width: 600px;}
-}
-
-@media screen and (max-width: 1023px) {
-	article, .central-element {width: 90%;}
-}
 
 article {
 	text-align: justify;
-	font-family: "Yu Mincho", "Hiragino Mincho Pro", Times, "Times New Roman", "MS PMincho", serif;
 	margin-right: auto;
 	margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+	body {
+	    font-size: 1.25em;
+	}
+	article {
+	    width: 600px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 1.1em;
+    }
+	article {
+	    margin: 0.5em;
+	}
 }
