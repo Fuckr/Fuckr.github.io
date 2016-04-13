@@ -3,6 +3,7 @@ body {font-family: Helvetica, Arial, "Source Han Sans SC", "Microsoft YaHei", "H
 
 #avatar {
     text-align: center;
+    margin: 2em auto 0;
 }
 
 #avatar img {
@@ -16,7 +17,7 @@ body {font-family: Helvetica, Arial, "Source Han Sans SC", "Microsoft YaHei", "H
     font-weight: 300;
     text-shadow: 1px 1px 4px #828282;
     color: #0C0C0C;
-    margin: 1rem auto 0;
+    margin: 1em auto 0;
 }
 
 a:link {
@@ -38,6 +39,5 @@ a:active {
 
 /*
 @media (max-width: 480px){
-
 }
 */
