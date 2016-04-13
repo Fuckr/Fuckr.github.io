@@ -12,9 +12,6 @@ h1 {
 
 #avatar img {
     border-radius: 50%;
-}
-
-#pic img {
     max-height: 256px;
 }
 
@@ -33,4 +30,8 @@ a:hover {
 a:active {
     color: #0C0C0C,
     text-decoration: none;
+}
+
+@media (max-width:480px) {
+	#avatar img {max-height: 128px;}
 }
