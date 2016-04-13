@@ -1,6 +1,5 @@
 body {
-    font-size: 1.5em;
-    font-family: Times, "Hiragino Mincho ProN", "Yu Mincho", serif;
+    font-family: Times, "Yu Mincho", "Hiragino Mincho ProN",serif;
     margin: 0;
     padding: 0;
 }
@@ -29,7 +28,7 @@ p {
     line-height: 1em;
 }
 code {
-    font-family: Inconsolata, "Source Code Pro", Consolas, Menlo, Courier, monospace;
+    font-family: Inconsolata, "Fira Code", "Source Code Pro", Consolas, Menlo, Courier, monospace;
     padding: 0 0.4em;
     border: 2px solid white;
     border-radius: 0.4em;
@@ -47,7 +46,6 @@ span {
 #sakura code, #shironeri code, #gofun code {
     border: 2px solid #434343;
 }
-
 a:link {
     color: #0C0C0C;
     text-decoration: none;
@@ -63,4 +61,9 @@ a:hover {
 a:active {
     color: #E83015,
     text-decoration: underline;
+}
+@media (min-width: 480px){
+    body {
+        font-size: 1.5em;
+    }
 }
