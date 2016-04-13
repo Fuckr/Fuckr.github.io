@@ -12,7 +12,7 @@ header {
 }
 #username h1 {
     font-size: 2.2em;
-    font-weight: normal;
+    font-weight: lighter;
     text-shadow: 1px 1px 4px #828282;
     color: #0C0C0C;
 }
