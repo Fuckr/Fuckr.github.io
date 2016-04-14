@@ -60,11 +60,11 @@ article {
 	margin: 0 auto;
 }
 a:link {
-    color: #005CAF;
+    color: #0052A5;
     text-decoration: none;
 }
 a:visited {
-    color: #005CAF;
+    color: #0052A5;
     text-decoration: none;
 }
 a:hover {
@@ -72,7 +72,7 @@ a:hover {
     text-decoration: none;
 }
 a:active {
-    color: #005CAF;
+    color: #0052A5;
     text-decoration: none;
 }
 @media screen and (min-width: 768px) {
