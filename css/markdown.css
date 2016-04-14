@@ -1,9 +1,10 @@
 body {
-    font-family: "Microsoft YaHei", "Source Han Sans SC", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+    font-family: "Microsoft YaHei", Helvetica, "Hiragino Sans GB", sans-serif;
     background-color: white;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: lighter;
+    margin: 1.5em 0 0.5em;
+    font-weight: 300;
 }
 h1 {
     font-size: 2em;
@@ -25,12 +26,16 @@ h6 {
     font-size: 1em;
 }
 p, li, ol, ul, blockquote p {
+    margin: 0;
+    padding: 0;
     font-size: 1em;
     font-weight: normal;
     line-height: 1.6;
 }
 ul {
-    list-style: square;
+    padding-left: 0.5em;
+    list-style-position: inside;
+    list-style-type: square;
 }
 blockquote {
     border-left: 4px solid #999999;
@@ -48,14 +53,14 @@ pre code {
 }
 hr {border: 0;
     border-bottom: 1px solid #D9D9D9;
-    margin: 0 0 1em;
+    margin: 1em 0;
 }
 article {
 	text-align: justify;
 	margin: 0 auto;
 }
 a:link {
-    color: #0C0C0C;
+    color: #005CAF;
     text-decoration: none;
 }
 a:visited {
