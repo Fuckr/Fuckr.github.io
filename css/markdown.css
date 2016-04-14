@@ -1,0 +1,83 @@
+body {
+    font-family: "Microsoft YaHei", "Source Han Sans SC", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+h6 {
+    font-size: 1em;
+}
+p, li, ol, ul, blockquote p {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.6;
+}
+ul {
+    list-style: square;
+}
+blockquote {
+    border-left: 4px solid #999999;
+    padding: 0 13px;
+    margin: 0 17px 0 13px;
+    color: #777777;
+}
+code, pre {
+    font-size: 1em;
+    font-family: "Fira Code", Inconsolata, "Source Code Pro", Consolas, Menlo, "Microsoft YaHei", monospace;
+}
+pre code {
+    font-size: 1em;
+    font-family: "Fira Code", Inconsolata, "Source Code Pro", Consolas, Menlo, "Microsoft YaHei", monospace;
+}
+hr {border: 0;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 0 0 1em;
+}
+article {
+	text-align: justify;
+	margin: 0 auto;
+}
+a:link {
+    color: #0C0C0C;
+    text-decoration: none;
+}
+a:visited {
+    color: #0C0C0C;
+    text-decoration: none;
+}
+a:hover {
+    color: #E83015;
+    text-decoration: none;
+}
+a:active {
+    color: #E83015;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+	article {
+	    width: 30em;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	article {
+	    margin: 1em;
+	}
+}
