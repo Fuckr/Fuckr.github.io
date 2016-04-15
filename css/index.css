@@ -35,6 +35,7 @@ footer {
     bottom: 0;
     text-align: center;
 	font-size: 0.75em;
+	font-weight: lighter;
 	color: #c0962d;
 }
 a:link {
