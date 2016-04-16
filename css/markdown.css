@@ -52,7 +52,8 @@ pre code {
     font-size: 1em;
     font-family: "Fira Code", Inconsolata, "Source Code Pro", Consolas, Menlo, "Microsoft YaHei", monospace;
 }
-hr {border: 0;
+hr {
+    border: 0;
     border-bottom: 1px solid #D9D9D9;
     margin: 1em 0;
 }
