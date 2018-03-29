@@ -1,11 +1,11 @@
 body {
     font-size: 1.1em;
-    font-family: "Microsoft YaHei", Helvetica, "Hiragino Sans GB", sans-serif;
-    background-color: white;
+    font-family: sans-serif;
+    background-color: #FCFAF2;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 1.5em 0 0.5em;
-    font-weight: 300;
+    font-weight: normal;
 }
 h1 {
     font-size: 2.5em;
@@ -61,19 +61,19 @@ article {
 	margin: 3em auto;
 }
 a:link {
-    color: #448ac9;
+    color: #227D51;
     text-decoration: none;
 }
 a:visited {
-    color: #448ac9;
+    color: #227D51;
     text-decoration: none;
 }
 a:hover {
-    color: #448ac9;
+    color: #000;
     text-decoration: none;
 }
 a:active {
-    color: #448ac9;
+    color: #227D51;
     text-decoration: none;
 }
 @media screen and (min-width: 721px) {
